@@ -4,12 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleUi
+namespace Core.Abstract
 {
-    public interface IBaseManager
+    public interface IEntity
     {
-        void Add(IEntity entity);
-        void Update(IEntity entity);
-
     }
 }
